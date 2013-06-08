@@ -4,4 +4,6 @@ cmake_install.cmake
 **/CMakeFiles/
 **/cmake_install.cmake
 Makefile
-
+CMakeHelloWorld
+*.a
+**/*.a
