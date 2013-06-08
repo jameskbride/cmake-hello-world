@@ -6,7 +6,6 @@ set (CMakeHelloWorld_VERSION_MAJOR 1)
 set (CMakeHelloWorld_VERSION_MINOR 0)
 
 #include the subdirectory containing our libs
-include_directories("${PROJECT_SOURCE_DIR}/Hello")
 add_subdirectory (Hello)
 
 #indicate the entry point for the executable
