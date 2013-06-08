@@ -7,3 +7,4 @@ Makefile
 CMakeHelloWorld
 *.a
 **/*.a
+build/**
