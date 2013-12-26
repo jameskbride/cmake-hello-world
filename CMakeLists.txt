@@ -7,7 +7,7 @@ set (CMakeHelloWorld_VERSION_MINOR 0)
 
 #include the subdirectory containing our libs
 add_subdirectory (Hello)
-
+include_directories(Hello)
 #indicate the entry point for the executable
 add_executable (CMakeHelloWorld Hello HelloWorld.cpp)
 
