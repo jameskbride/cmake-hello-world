@@ -8,3 +8,9 @@ CMakeHelloWorld
 *.a
 **/*.a
 build/**
+*.cbp
+CMakeLists.txt.user
+cmake-hello-world.json
+manifest.json
+.excludes
+*.swp
