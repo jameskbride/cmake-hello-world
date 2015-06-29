@@ -20,7 +20,7 @@ Once the executable has been created simply call `CMakeHelloWorld`, either from 
 
 ***Uninstallation*** 
 Removing the application is straight-forward.  Simply delete the binary 'CMakeHelloWorld' from /usr/local/bin.
-Or you can use shell command `cat install_manifest.txt | sudo xargs rm` to uninstallation.
+Or you can use shell command `cat install_manifest.txt | sudo xargs rm` to uninstall.
    
 
 ***Caution***
