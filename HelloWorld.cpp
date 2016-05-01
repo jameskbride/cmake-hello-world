@@ -7,4 +7,6 @@ int main(int argc, char *argv[]) {
   Speaker* speaker = new Speaker();
 
   speaker->sayHello();  
+
+  delete speaker;
 }
