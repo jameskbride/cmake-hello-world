@@ -1,4 +1,4 @@
-namespace Hello {
+namespace hello {
 
   class Speaker {
     

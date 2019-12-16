@@ -1,7 +1,7 @@
 #include "Speaker.h"
 
 int main(int argc, char *argv[]) {
-  auto speaker = Hello::Speaker{};
+  auto speaker = hello::Speaker{};
 
   speaker.sayHello();
 }
