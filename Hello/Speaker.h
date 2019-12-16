@@ -1,7 +1,4 @@
-#include <stdio.h>
-#include <iostream>
-
-namespace Hello {
+namespace hello {
 
   class Speaker {
     
