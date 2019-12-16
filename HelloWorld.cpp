@@ -1,10 +1,7 @@
-#include <Speaker.h>
-
-using namespace std;
-using namespace Hello;
+#include "Speaker.h"
 
 int main(int argc, char *argv[]) {
-  auto speaker = Speaker{};
+  auto speaker = Hello::Speaker{};
 
   speaker.sayHello();
 }
