@@ -16,10 +16,11 @@ make install
 You may need to use`sudo make install` command as it will install to /usr/local/bin .  This might be a good opportunity to investigate stow (http://www.gnu.org/software/stow/manual/stow.html) as a means of managing the installation of applications in this manner, however I haven't gotten far enough into my CMake knowledge to take that step.
 
 ### Usage ###
-Once the executable has been created simply call `CMakeHelloWorld`, either from the build directory or anywhere (if you installed to /usr/local/bin, etc).
+Once the executable has been created simply call `CMakeHelloWorld`, either from the build directory or anywhere (if you installed to /usr/local/bin, etc). 
 
 ***Uninstallation*** 
 Removing the application is straight-forward.  Simply delete the binary 'CMakeHelloWorld' from /usr/local/bin.
+Or you can use shell command `cat install_manifest.txt | sudo xargs rm` to uninstall.
    
 
 ***Caution***
